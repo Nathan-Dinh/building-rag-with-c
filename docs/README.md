@@ -28,7 +28,10 @@ https://computer.howstuffworks.com/c1.htm
 
 **New questions this raised:**
 - What is unix
-- commerical compilers vs non comercial compilers
+- Commerical compilers vs non comercial compilers
+- How to start a project
+- How to structure a project
+- What is best practices
 
 ## What is RAG?
 *Asked:*
