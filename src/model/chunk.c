@@ -9,12 +9,15 @@
     };
 
 
-    Chunk *chunk_create(const char *text, size_t size){
-        Chunk c;
+    struct Chunk chunk_create(const char *text, size_t size){
+        struct Chunk c;
 
-        Chunk c.text = malloc(size + 1);     
-        Chunk c.size = size;
-        return &c; 
+        c.text = size
+
+        memcpy(c.text, text, size);
+        c.text[size] = '\0'; // Null-terminate the string
+        c.size = size;
+        return c;
     };
 
     size_t chunk_get_size(Chunk *c){
