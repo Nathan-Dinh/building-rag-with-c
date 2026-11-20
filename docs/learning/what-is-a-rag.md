@@ -6,10 +6,24 @@ From my understanding it's used in pair with multi language models to help gener
 
 
 ## Answer:
-- **What it is:** Definition and general explanation.
-- **How it's used:** Real-world applications and use cases.
-- **Why it matters:** What problem does it solve?
-- **How we use it here:** How does this relate to my current project or learning goals?
+- information-retrieval is the mechanisum used to access additional data beyond their original
+training set
+- Embedding
+    - Semi-structured or structured data (Knowldege graphs)
+- Stored in vector database
+- Encoder
+    - Dot product ehance similarity scoring
+    - Approximate nearest neighbor (ANN) improves retrieval efficiency over k-nearest neightbors(KNN)
+    - Post processing can improve precision which is called late interaction
+    - Hybrid one-hot vectors with dense vector
+    - 
+- Retriever Centric Methods
+    - We can pre train retriever to optimize by learning retriever patterns
+    - Can be optimized by retrivel probablitiles with genearted likelihood distribution
+    - Reranking techniques.
+- Chunking
+    - 
+
 
 ## What I got wrong / what surprised me:
 What did I misunderstand? What was unexpected?
